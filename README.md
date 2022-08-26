@@ -7,6 +7,12 @@ M1 Macの場合は`platform: linux/x86_64`のみにする（platform: linux/amd6
 2. dockerに関するコマンドを実行する
 ```
 docker-compose up
+※この場合、画面にログが出力される
+```
+
+```
+docker-compose up -d
+※この場合、画面にログが出力されない
 ```
 
 下記のようなログが出力される(databaseが存在しないというエラー)
